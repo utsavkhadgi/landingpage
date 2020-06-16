@@ -187,11 +187,25 @@ footer{
     
     .header{
       height: 60vh;
+    }
+
+    .intro h1{
+      font-size:30px;
     }  
 
-    .services{
-    height:19vh;
+    .intro{
+      height:33vh;
     }
+
+    .intro-img{
+      padding-top: 50px;
+    }
+
+    .services-content{
+      padding-top:30px;
+    height:59vh;
+    }
+
 
 
 
@@ -288,8 +302,12 @@ footer{
     padding: 8vh 0;
   }
 
+  .intro-text{
+
+  }
+
   .services{
-    height: 90vh;
+    height: 85vh;
     clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
     padding-bottom: 450px;
   }
